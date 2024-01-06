@@ -1,0 +1,200 @@
+body{
+    background: #bcbbca;
+    margin:0;
+}
+
+.link-title {
+    text-decoration:none;
+    font-size:40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:#211c41;
+}
+
+
+.page-heading {
+    text-align: center;
+    margin: 20px;
+}
+
+.container {
+    box-shadow: 0px 10px 12px 5px;
+    width:780px;
+    margin: 0 auto;
+    background: #FFF;
+}
+
+.header {
+    padding: 45px 0 20px 40px;
+
+}
+
+.menu{
+    background: #24478f;
+    padding: 6px 0 6px  40px;
+}
+
+.menu a {
+    color: #c5d6db;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "Arial Narrow"; "Myriad Pro";
+}
+
+.menu a:hover{
+    color:#ecf2f3;
+}
+
+aside{
+    float: left;
+    width:120px;
+    padding:100px 0 0 40px
+}
+
+aside h1{
+    margin: 0px;
+    color: rgb(55, 87, 174);
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+aside ul{
+    position:relative;
+    left: -30px;
+    font: 1em sans-serif;
+    color: #3f38a8;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+aside li{
+    margin: 10px;
+
+}
+
+h1 {
+    margin: 0px;
+    color: rgb(60, 49, 208);
+    font-size: 35px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: normal;
+}
+
+h2{
+    color: #1d1d20;
+    font-size:15px;
+    padding: 35px 0 0 0;
+    margin: 10px 0 5px 0;
+
+}
+
+.main{
+    margin: 0 0 0 180px;
+    padding: 35px 40px 30px 0;
+    text-align: justify;
+    color: #444444;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:13px;
+    line-height:18px;
+    text-emphasis: justify;
+
+}
+
+#home-image img{
+    padding:10px 0 10px 0;
+    width:100%
+}
+
+.main a:hover{
+    color:#444444;
+}
+
+
+footer{
+    padding:6px 40px 6px 40px;
+    background: #d6d6d6;
+    font-family: "Lucida Sans Unicode";
+    color:black;
+    font-size: 11px;
+    text-transform: uppercase;
+    text-decoration: right;
+}
+
+footer a{
+    text-decoration: none;
+    color:#262626;
+}
+
+.seperator{
+    color:#FFFFFF;
+    font-size: 11px;
+}
+
+/* About Page Styles */
+
+#about-page .main{
+    margin: 0 0 0 100px;
+}
+
+#about-page #home-image img{
+    width: 50%;
+    float:left;
+}
+
+#about-page #profile-info {
+    float:right;
+    width:45%;
+    margin:0px;
+}
+
+#about-page .description {
+    padding: 20px 40px 30px 0;
+    clear: both;
+}
+
+#about-page #content-link {
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 13.5px;
+    font-family: "Arial Narrow"; "Myriad Pro";
+}
+
+#about-page #content-link:hover{
+    color:lightskyblue;
+}
+
+
+
+/* Contact Page Styling */
+
+#contact .main{
+    margin: 0 0 0 60px;
+}
+
+#contact #form {
+    box-shadow: -1px 5px 10px 5px;
+    width: 500px;
+    /* border: 2px solid black; */
+    padding: 10px 10px 10px 10px;
+    margin: 0 auto;
+    border-radius: 2px;
+}
+
+#contact #form input {
+    width: 100%;
+    border-radius: 5px;
+    height: 20px;
+    background: #d2d2d2;
+}
+
+#contact #form #message {
+    width: 100%;
+    border-radius: 5px;
+    background: #d2d2d2;
+}
+
+#contact #form #submit {
+    height: 30px;
+    background: rgb(53, 134, 225)
+}
