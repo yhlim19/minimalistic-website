@@ -5,6 +5,6 @@ Please upload your own images to image folder if wish to reproduce the same webp
 # My Website Preview
 ![](https://github.com/yhlim19/minimalistic-website/blob/main/website-yhlim-gif.gif)
 
-* Please preview the website through the gif above for demo purpose as the website is offline due to cost constraint.
+* Please preview the website through the GIF above for demo purpose as the website is offline due to cost constraint.
 
 
